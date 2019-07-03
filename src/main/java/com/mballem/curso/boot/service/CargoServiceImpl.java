@@ -9,7 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 import com.mballem.curso.boot.dao.CargoDao;
 import com.mballem.curso.boot.domain.Cargo;
 
-@Service @Transactional(readOnly = false)
+@Service 
+@Transactional(readOnly = false)
 public class CargoServiceImpl implements CargoService {
 	
 	@Autowired
