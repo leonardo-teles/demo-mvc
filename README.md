@@ -9,4 +9,4 @@ Tópicos Abordados:
    - Usar recursos estáticos (CSS e JS) via WebJars
    - Enviar e realizar o Deploy da aplicação na nuvem Heroku
    
-   <a href="https://www.udemy.com/certificate/UC-OHICJKJ0/" rel="noopener">Certificado</a>
+   <a href="https://www.udemy.com/certificate/UC-OHICJKJ0/" rel="noopener">Certificado</a> | <a href="https://https://my-demo-mvc.herokuapp.com">Testar</a>
