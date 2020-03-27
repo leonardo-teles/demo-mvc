@@ -3,6 +3,7 @@ package com.mballem.curso.boot.dao;
 import java.util.List;
 
 import com.mballem.curso.boot.domain.Cargo;
+import com.mballem.curso.boot.util.PaginacaoUtil;
 
 
 public interface CargoDao {
@@ -16,4 +17,6 @@ public interface CargoDao {
 	Cargo findById(Long id);
 	
 	List<Cargo> findAll();
+	
+	PaginacaoUtil<Cargo> buscaPaginada(int pagina);
 }
