@@ -7,14 +7,14 @@ public class PaginacaoUtil<T> {
 	private int tamanho;
 	private int pagina;
 	private long totalDePaginas;
-	private List<T> registro;
+	private List<T> registros;
 	
-	public PaginacaoUtil(int tamanho, int pagina, long totalDePaginas, List<T> registro) {
+	public PaginacaoUtil(int tamanho, int pagina, long totalDePaginas, List<T> registros) {
 		super();
 		this.tamanho = tamanho;
 		this.pagina = pagina;
 		this.totalDePaginas = totalDePaginas;
-		this.registro = registro;
+		this.registros = registros;
 	}
 
 	public int getTamanho() {
@@ -29,7 +29,7 @@ public class PaginacaoUtil<T> {
 		return totalDePaginas;
 	}
 
-	public List<T> getRegistro() {
-		return registro;
+	public List<T> getRegistros() {
+		return registros;
 	}
 }
